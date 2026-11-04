@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Ayush Pratap Singh Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <style>
+        body {
+            font-family: Arial;
+            background-color: #eeeeee;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: black;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            margin: 8px;
+            text-decoration: none;
+        }
+
+        .container {
+            padding: 15px;
+        }
+
+        section {
+            background-color: white;
+            padding: 20px;
+            margin-bottom: 15px;
+            border-radius: 8px;
+        }
+
+        h2 {
+            color: navy;
+        }
+
+        footer {
+            background-color: navy;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>Ayush Pratap Singh</h1>
+    <p>Computer Science Student</p>
+    <p>Roll Number: BCS2026036</p>
+</header>
+
+<nav>
+    <a href="#about">About</a>
+    <a href="#courses">Courses</a>
+    <a href="#blog">Blog</a>
+    <a href="#skills">Skills</a>
+</nav>
+
+<div class="container">
+
+    <section id="about">
+        <h2>About Me</h2>
+        <h3>Welcome to My Portfolio!</h3>
+
+        <p>
+            Hello! My name is Ayush Pratap Singh.
+            My University Roll Number is BCS2026036.
+            I am interested in Computer Science,
+            Programming and Web Development.
+        </p>
+    </section>
+
+    <section id="courses">
+        <h2>My Courses</h2>
+
+        <ol>
+            <li>JavaScript Programming</li>
+            <li>HTML5 and CSS</li>
+            <li>Programming Fundamentals</li>
+            <li>Problem Solving</li>
+            <li>Web Development</li>
+        </ol>
+    </section>
+
+    <section id="blog">
+        <h2>My Learning Journey</h2>
+
+        <h3>Learning Web Development</h3>
+
+        <p>
+            I am learning HTML, CSS and JavaScript.
+            I practice coding to improve my programming
+            skills and develop websites.
+        </p>
+    </section>
+
+    <section id="skills">
+        <h2>My Technical Skills</h2>
+
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Programming Logic</li>
+            <li>Web Development</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>My Goal</h2>
+        <p>
+            My goal is to become a skilled software
+            developer and improve my technical knowledge.
+        </p>
+    </section>
+
+</div>
+
+<footer>
+    <p>Copyright 2026 Ayush Pratap Singh</p>
+    <p>University Roll Number: BCS2026036</p>
+    <p>Created using HTML and CSS</p>
+</footer>
+
+</body>
+</html>
